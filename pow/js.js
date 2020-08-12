@@ -17,7 +17,7 @@ function aa(){
         var ad = a_2-a_1;
         d = " 등차 수열 공차: ";
     }
-    if(Math.Math.pow(a_2,2)==a_1*a_3){
+    if(Math.pow(a_2,2)==a_1*a_3){
         c += 1;
         b=1;
         e = " 등비 수열 공비: ";
