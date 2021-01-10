@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>math&numbers</title>
     <script type="text/javascript" src="js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css.css">
+    <style>
+        video {
+            max-width: 80%;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Math & Numbers</h1>
     <h2>arrays</h2>
@@ -22,5 +32,33 @@
         <input type="button" class="but" value="calculate _ 10->2 " onclick="bb();">
         <input type="button" class="but" value="calculate_ 2-> 10" onclick="cc();">
     </form>
+    <h2>Repeat</h2>
+    <form action="">
+        <input type="text" placeholder="얼마나 반복할 지(숫자만!)" class="" id="times">
+        <input type="text" placeholder="반복할 문자" class="" id="text">
+        <input type="button" class="but" value="complete" onclick="dd();">
+    </form>
+    <textarea id="txtConv" rows="4" cols="100" readonly="readonly"></textarea>
+    <h4 class="admin">    
+        YOU aRe Admin
+    </h4>
+    <a href="https://youtu.be/WaRfveUrxbs" class="admin">AdmIn</a>
+
+    <h2>Machine Learning</h2>
+    <form action="">
+        <input type="text" placeholder="독립변수_1" class="values">
+        <input type="text" placeholder="독립변수_2" class="values">
+        <input type="text" placeholder="독립변수_3" class="values">
+        <input type="text" placeholder="독립변수_4" class="values">
+        <input type="text" placeholder="종속변수_1" class="valuess">
+        <input type="text" placeholder="종속변수_2" class="valuess">
+        <input type="text" placeholder="종속변수_3" class="valuess">
+        <input type="text" placeholder="종속변수_4" class="valuess">
+        <input type="text" placeholder="에상_독립변수" id="pre">
+        <input type="button" class="but" value="complete" onclick="ma();">
+    </form>
+    <textarea id="results" rows="4" cols="100" readonly="readonly"></textarea>
+
 </body>
+
 </html>

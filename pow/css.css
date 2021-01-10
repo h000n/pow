@@ -7,3 +7,13 @@ form{
 .but{
     text-align: center;
 }
+#txtConv{
+    text-align: center;
+    margin-left: 600px;
+}
+.admin{
+    display: none;
+}
+#results{
+    display: none;
+}
